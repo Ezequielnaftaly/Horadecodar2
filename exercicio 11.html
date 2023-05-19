@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript10
+
+    </title>
+  
+   <script>
+   
+   let valor1 = parseInt(prompt("Digite o primeiro valor: "));
+   let valor2 = parseInt(prompt("Digite o segundo valor: "));
+   let operacao = parseInt(prompt("Digite a operacao desejada (1 para adição, 2 subtração, 3 divisão, 4 multiplicação)"));
+
+   let resultado
+
+   switch (operacao) {
+    case 1:
+        resultado = valor1 + valor2;
+        break;
+      case 2:
+        resultado = valor1 - valor2;
+        break; 
+      case 3:
+          resultado = valor1 / valor2;
+        break;
+      case 4:operacao
+          resultado = valor1 * valor2;
+        break;
+      default: 
+      alert("Operação inválida");
+      break;   
+   }
+  
+  if (resultado != undefined) {
+    alert(`o resultado da operação escolhida é ${resultado}`);
+  } 
+
+  </script>
+
+<body>
+  
+</body>
+</html>

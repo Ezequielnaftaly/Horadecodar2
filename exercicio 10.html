@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript10
+
+    </title>
+  
+   <script>
+   
+   let altura = parseFloat(prompt("Informe a sua altura ( em metros):"));
+   let sexo = parseInt(prompt("informe o seu sexo(1 para feminino ou 2 para masculino):"));
+   
+   let pesoideal;
+   if(sexo === 1) {
+     pesoIdeal = 62.1 * Altura - 44.7;
+   } else if (sexo === 2) {
+    pesoIdeal = 72.7 * altura - 58;
+   } else {
+    alert("sexo invalido. informe 1 para feminino ou 2 para masculino.");
+   }
+      
+   if(pesoIdeal) {
+    alert("seu peso ideal é:" + pesoIdeal.toFixed(2) + "kg");
+   }
+    
+   </script>
+  
+  <body>
+
+  </body>
+  </html>
+
+  
+
